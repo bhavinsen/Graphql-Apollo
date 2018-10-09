@@ -1,0 +1,20 @@
+{
+  "name": "test_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DB_HOST=localhost TENANT=test DB_USER=root DB_PASSWORD=secret nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.1.0",
+    "apollo-server-express": "^2.1.0",
+    "graphql": "^14.0.2",
+    "mysql2": "^1.6.1",
+    "nodemon": "^1.18.4",
+    "sequelize": "^4.38.1"
+  }
+}
